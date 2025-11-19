@@ -1,0 +1,189 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("com.google.devtools.ksp")
+    id("org.jetbrains.kotlin.plugin.serialization")
+}
+
+android {
+    namespace = "com.kreggscode.greekalphabets"
+    compileSdk = 36
+
+    // NDK r28+ is required for 16 KB page size support
+    // AGP 8.7.3 should use compatible NDK automatically, but we ensure it's set
+    // Check your installed NDK version in Android Studio: Tools > SDK Manager > SDK Tools > NDK
+    // Common versions: "28.0.12674087" or "27.0.12077987" (r28+ required)
+
+    defaultConfig {
+        applicationId = "com.kreggscode.greekalphabets"
+        minSdk = 24
+        targetSdk = 36
+        versionCode = 4
+        versionName = "1.3"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+        
+        ndk {
+            abiFilters += listOf("armeabi-v7a", "arm64-v8a")
+            // NDK r28+ is required for 16 KB page size support
+            // AGP 8.7.3 will use the latest installed NDK automatically
+            // Verify in Android Studio: Tools > SDK Manager > SDK Tools > NDK
+            // Must have NDK r28 or higher (e.g., 28.0.12674087)
+        }
+        ndkVersion = "28.0.12674087"
+    }
+    
+    buildTypes {
+        release {
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+        debug {
+            isMinifyEnabled = false
+            isShrinkResources = false
+        }
+    }
+    
+    splits {
+        abi {
+            isEnable = false  // Disabled for AAB builds - bundles handle architectures automatically
+            // AAB format is required for 16 KB page size validation on Google Play
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    
+    kotlinOptions {
+        jvmTarget = "17"
+        freeCompilerArgs += listOf(
+            "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
+            "-opt-in=androidx.compose.animation.ExperimentalAnimationApi",
+            "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
+            "-opt-in=com.google.accompanist.permissions.ExperimentalPermissionsApi",
+            "-opt-in=androidx.compose.foundation.layout.ExperimentalLayoutApi",
+            "-opt-in=androidx.compose.ui.ExperimentalComposeUiApi",
+            "-opt-in=kotlin.RequiresOptIn"
+        )
+    }
+    
+    buildFeatures {
+        compose = true
+    }
+    
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.5"
+    }
+    
+    lint {
+        disable += "UnsafeOptInUsageError"
+        abortOnError = false
+    }
+    
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+        // 16 KB page size support configuration
+        // According to https://developer.android.com/guide/practices/page-sizes:
+        // - Native libraries must be uncompressed (useLegacyPackaging = false)
+        // - extractNativeLibs=false (set below) prevents extraction, required for 16 KB
+        // - AGP 8.5.1+ automatically handles 16 KB alignment when libraries are uncompressed
+        // - All dependencies with native code must support 16 KB
+        jniLibs {
+            useLegacyPackaging = false  // Required: uncompressed libraries for 16 KB alignment
+            // AGP 8.5.1+ automatically aligns uncompressed libraries to 16 KB boundaries
+        }
+    }
+}
+
+dependencies {
+    // Core Android
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    
+    // Compose
+    implementation(platform("androidx.compose:compose-bom:2023.10.01"))
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-graphics")
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.activity:activity-compose:1.8.2")
+    
+    // Compose Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.6")
+    
+    // Splash Screen API
+    implementation("androidx.core:core-splashscreen:1.0.1")
+    
+    // Animation
+    implementation("androidx.compose.animation:animation:1.5.4")
+    implementation("androidx.compose.animation:animation-graphics:1.5.4")
+    
+    // JSON Serialization
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+    
+    // Network - Ktor (pure Kotlin, no native dependencies)
+    implementation("io.ktor:ktor-client-core:2.3.6")
+    implementation("io.ktor:ktor-client-android:2.3.6")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.6")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.6")
+    implementation("io.ktor:ktor-client-logging:2.3.6")
+    
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    
+    // DataStore (for preferences)
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    
+    // Coil for image loading
+    implementation("io.coil-kt:coil-compose:2.5.0")
+    
+    // CameraX for scanner - latest versions with 16 KB support
+    // Note: CameraX 1.4.0+ includes 16 KB aligned native libraries
+    implementation("androidx.camera:camera-core:1.4.0")
+    implementation("androidx.camera:camera-camera2:1.4.0")
+    implementation("androidx.camera:camera-lifecycle:1.4.0")
+    implementation("androidx.camera:camera-view:1.4.0")
+    
+    // ML Kit for text recognition - latest versions with 16 KB support
+    // All ML Kit libraries must be latest versions for 16 KB compatibility
+    implementation("com.google.mlkit:text-recognition:16.0.1")
+    implementation("com.google.mlkit:image-labeling:17.0.9")
+    implementation("com.google.android.gms:play-services-mlkit-text-recognition:19.0.1")
+    implementation("com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.1")
+    
+    // ML Kit Translate - TEMPORARILY REMOVED due to 16 KB page size issue
+    // libtranslate_jni.so is not 16 KB aligned in current versions
+    // TODO: Re-enable when Google releases 16 KB compatible version
+    // For now, app uses dictionary-based translation only
+    // implementation("com.google.mlkit:translate:17.0.1")
+    
+    // Google Play Services - must be latest for 16 KB support
+    implementation("com.google.android.gms:play-services-base:18.5.0")
+    
+    // Lottie removed to reduce app size
+    
+    // Permissions
+    implementation("com.google.accompanist:accompanist-permissions:0.32.0")
+    
+    // Testing
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.10.01"))
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+    debugImplementation("androidx.compose.ui:ui-tooling")
+    debugImplementation("androidx.compose.ui:ui-test-manifest")
+}
