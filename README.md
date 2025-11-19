@@ -118,7 +118,7 @@ Greek Alphabets AI is your comprehensive companion for mastering the beautiful G
 <table>
 <tr>
 <td align="center">
-<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(1).png?raw=true" width="250" alt="Screenshot 1"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(1).png" width="250" alt="Screenshot 1"/>
 <br/><strong>Home Screen</strong>
 </td>
 <td align="center">
