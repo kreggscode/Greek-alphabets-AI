@@ -1,10 +1,35 @@
 # Greek Alphabets AI 🇬🇷
 
-[![Google Play](https://img.shields.io/badge/Get%20it%20on-Google%20Play-blue?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets)
+<div align="center">
+
+## 🚀 **Download Now on Google Play!**
+
+[![Google Play Badge](https://img.shields.io/badge/Get%20it%20on-Google%20Play-4285F4?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets)
+
+**[👉 Direct Link to App Store 👈](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets)**
+
+</div>
+
+---
+
+<div align="center">
+
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://developer.android.com)
+[![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Material Design](https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white)](https://material.io)
+
+</div>
+
+---
 
 > **Master Greek with AI-powered learning, 2000+ words, quizzes, and pronunciation guides.**
+
+<div align="center">
+
+**[📱 Get Greek Alphabets AI on Google Play](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets)** | **[⭐ Star this repo](https://github.com/kreggscode/Greek-alphabets-AI)** | **[🐛 Report Bug](https://github.com/kreggscode/Greek-alphabets-AI/issues)**
+
+</div>
 
 Greek Alphabets AI is your comprehensive companion for mastering the beautiful Greek language. Whether you're planning a trip to Greece, studying ancient texts, or simply want to learn a new language, this app provides everything you need to become fluent in Greek.
 
@@ -82,13 +107,70 @@ Greek Alphabets AI is your comprehensive companion for mastering the beautiful G
 
 ## 📱 Screenshots
 
-| ![Home Screen](https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/screenshots/home.png) | ![Vocabulary](https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/screenshots/vocabulary.png) | ![AI Chat](https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/screenshots/ai-chat.png) |
-|:---:|:---:|:---:|
-| **Home Screen** | **Vocabulary Learning** | **AI Learning Assistant** |
+<div align="center">
 
-| ![Quizzes](https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/screenshots/quizzes.png) | ![Scanner](https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/screenshots/scanner.png) | ![Settings](https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/screenshots/settings.png) |
-|:---:|:---:|:---:|
-| **Interactive Quizzes** | **Text Scanner** | **Settings & Preferences** |
+### Experience the Beautiful UI of Greek Alphabets AI
+
+*Click on any screenshot to view in full size*
+
+</div>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(1).png" width="250" alt="Screenshot 1"/>
+<br/><strong>Home Screen</strong>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(2).png" width="250" alt="Screenshot 2"/>
+<br/><strong>Vocabulary Learning</strong>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(3).png" width="250" alt="Screenshot 3"/>
+<br/><strong>AI Learning Assistant</strong>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(4).png" width="250" alt="Screenshot 4"/>
+<br/><strong>Word Categories</strong>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(5).png" width="250" alt="Screenshot 5"/>
+<br/><strong>Interactive Quizzes</strong>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(6).png" width="250" alt="Screenshot 6"/>
+<br/><strong>Text Scanner</strong>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(7).png" width="250" alt="Screenshot 7"/>
+<br/><strong>Grammar Guide</strong>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(8).png" width="250" alt="Screenshot 8"/>
+<br/><strong>Translator</strong>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(9).png" width="250" alt="Screenshot 9"/>
+<br/><strong>Alphabet Learning</strong>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="3">
+<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(10).png" width="250" alt="Screenshot 10"/>
+<br/><strong>Settings & Preferences</strong>
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**[📥 Download Now and Start Learning Greek!](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets)**
+
+</div>
 
 ## 🚀 Getting Started
 
@@ -100,8 +182,16 @@ Greek Alphabets AI is your comprehensive companion for mastering the beautiful G
 ### Installation
 
 1. **Download from Google Play Store**
-   - Visit [Greek Alphabets AI on Google Play](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets)
-   - Click "Install" and wait for download to complete
+   
+   <div align="center">
+   
+   **[👉 DOWNLOAD ON GOOGLE PLAY 👈](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets)**
+   
+   [![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets)
+   
+   *Click the badge above or visit the [app page](https://play.google.com/store/apps/details?id=com.kreggscode.greekalphabets) directly*
+   
+   </div>
 
 2. **Grant Permissions**
    - Allow camera access for text scanning
@@ -115,14 +205,100 @@ Greek Alphabets AI is your comprehensive companion for mastering the beautiful G
 
 ## 🏗️ Technical Architecture
 
-### Built With Android & Kotlin 🚀
-- **Language**: Kotlin
-- **Framework**: Android SDK
-- **Architecture**: MVVM (Model-View-ViewModel)
-- **AI Integration**: [Pollinations.AI](https://pollinations.ai) API
-- **Database**: Room Persistence Library
-- **UI**: Material Design 3
-- **Build Tool**: Gradle Kotlin DSL
+<div align="center">
+
+### Built with Modern Technologies 🚀
+
+</div>
+
+<table>
+<tr>
+<td align="center" valign="top" width="33%">
+
+### 💻 **Language & Framework**
+- <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+- **Android SDK** (API 26+)
+- **Java Interoperability**
+
+</td>
+<td align="center" valign="top" width="33%">
+
+### 🏛️ **Architecture & Patterns**
+- **MVVM** (Model-View-ViewModel)
+- **Clean Architecture**
+- **Repository Pattern**
+- **LiveData & StateFlow**
+
+</td>
+<td align="center" valign="top" width="33%">
+
+### 🎨 **UI & Design**
+- **Material Design 3**
+- **Jetpack Compose** (Modern UI)
+- **Dark Mode Support**
+- **Responsive Layouts**
+
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+
+### 🤖 **AI & Machine Learning**
+- **[Pollinations.AI](https://pollinations.ai)** API
+- **Google ML Kit** (Text Recognition)
+- **OCR Technology**
+- **Cloud Translation**
+
+</td>
+<td align="center" valign="top" width="33%">
+
+### 💾 **Data & Storage**
+- **Room Persistence Library**
+- **SQLite Database**
+- **Local Caching**
+- **Offline Support**
+
+</td>
+<td align="center" valign="top" width="33%">
+
+### 🔧 **Tools & Build**
+- **Gradle Kotlin DSL**
+- **Android Studio**
+- **Git Version Control**
+- **CI/CD Ready**
+
+</td>
+</tr>
+</table>
+
+### 🔌 **Key Dependencies**
+
+<div align="center">
+
+```kotlin
+// Core Android Libraries
+androidx.core:core-ktx
+androidx.lifecycle:lifecycle-viewmodel-ktx
+androidx.compose:compose-bom
+
+// Database
+androidx.room:room-runtime
+androidx.room:room-ktx
+
+// Networking
+com.squareup.retrofit2:retrofit
+com.squareup.okhttp3:okhttp
+
+// ML & AI
+com.google.mlkit:text-recognition
+com.google.mlkit:image-labeling
+
+// UI Components
+com.google.android.material:material
+androidx.compose.material3:material3
+```
+
+</div>
 
 ### Project Structure
 ```
@@ -136,13 +312,6 @@ app/
 └── src/main/assets/    # Static assets
 ```
 
-### Key Dependencies
-- `androidx.core:core-ktx` - Kotlin extensions
-- `androidx.lifecycle:lifecycle-viewmodel-ktx` - ViewModel support
-- `androidx.room:room-runtime` - Local database
-- `com.squareup.retrofit2:retrofit` - HTTP client
-- `com.google.mlkit:text-recognition` - OCR functionality
-- `com.google.android.material:material` - Material Design components
 
 ## 🤝 Contributing
 
