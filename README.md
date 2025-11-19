@@ -33,7 +33,7 @@
 
 Greek Alphabets AI is your comprehensive companion for mastering the beautiful Greek language. Whether you're planning a trip to Greece, studying ancient texts, or simply want to learn a new language, this app provides everything you need to become fluent in Greek.
 
-![Greek Flag](https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/assets/greek-flag.png)
+![Greek Flag](https://github.com/kreggscode/Greek-alphabets-AI/raw/main/assets/greek-flag.png)
 
 ## ✨ Key Features
 
@@ -118,49 +118,49 @@ Greek Alphabets AI is your comprehensive companion for mastering the beautiful G
 <table>
 <tr>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(1).png" width="250" alt="Screenshot 1"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(1).png?raw=true" width="250" alt="Screenshot 1"/>
 <br/><strong>Home Screen</strong>
 </td>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(2).png" width="250" alt="Screenshot 2"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(2).png" width="250" alt="Screenshot 2"/>
 <br/><strong>Vocabulary Learning</strong>
 </td>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(3).png" width="250" alt="Screenshot 3"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(3).png" width="250" alt="Screenshot 3"/>
 <br/><strong>AI Learning Assistant</strong>
 </td>
 </tr>
 <tr>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(4).png" width="250" alt="Screenshot 4"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(4).png" width="250" alt="Screenshot 4"/>
 <br/><strong>Word Categories</strong>
 </td>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(5).png" width="250" alt="Screenshot 5"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(5).png" width="250" alt="Screenshot 5"/>
 <br/><strong>Interactive Quizzes</strong>
 </td>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(6).png" width="250" alt="Screenshot 6"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(6).png" width="250" alt="Screenshot 6"/>
 <br/><strong>Text Scanner</strong>
 </td>
 </tr>
 <tr>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(7).png" width="250" alt="Screenshot 7"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(7).png" width="250" alt="Screenshot 7"/>
 <br/><strong>Grammar Guide</strong>
 </td>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(8).png" width="250" alt="Screenshot 8"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(8).png" width="250" alt="Screenshot 8"/>
 <br/><strong>Translator</strong>
 </td>
 <td align="center">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(9).png" width="250" alt="Screenshot 9"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(9).png" width="250" alt="Screenshot 9"/>
 <br/><strong>Alphabet Learning</strong>
 </td>
 </tr>
 <tr>
 <td align="center" colspan="3">
-<img src="https://raw.githubusercontent.com/kreggscode/Greek-alphabets-AI/main/Screenshots/1%20(10).png" width="250" alt="Screenshot 10"/>
+<img src="https://github.com/kreggscode/Greek-alphabets-AI/raw/main/Screenshots/1_(10).png" width="250" alt="Screenshot 10"/>
 <br/><strong>Settings & Preferences</strong>
 </td>
 </tr>
