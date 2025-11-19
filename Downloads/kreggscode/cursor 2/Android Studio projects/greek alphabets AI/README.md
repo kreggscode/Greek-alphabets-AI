@@ -115,7 +115,7 @@ Greek Alphabets AI is your comprehensive companion for mastering the beautiful G
 
 ## 🏗️ Technical Architecture
 
-### Built With
+### Built With Android & Kotlin 🚀
 - **Language**: Kotlin
 - **Framework**: Android SDK
 - **Architecture**: MVVM (Model-View-ViewModel)
